@@ -39,3 +39,6 @@ app
     console.error(err);
     process.exit(1);
   });
+
+// Export the Express API
+module.exports = app;
